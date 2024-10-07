@@ -27,7 +27,7 @@ namespace ContosoCrafts.WebSite.Pages
         public IEnumerable<ProductModel> Products { get; private set; }
 
 
-        // OnGet method
+        // OnGet method1
         public void OnGet()
         {
             Products = ProductService.GetProducts();
