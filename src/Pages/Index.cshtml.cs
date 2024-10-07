@@ -11,6 +11,7 @@ namespace ContosoCrafts.WebSite.Pages
     /// <summary>
     /// Mike MCKEE 3334
     /// </summary>
+    /// Added Below
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
