@@ -25,6 +25,8 @@ namespace ContosoCrafts.WebSite.Pages
         public JsonFileProductService ProductService { get; }
         public IEnumerable<ProductModel> Products { get; private set; }
 
+
+        // OnGet method
         public void OnGet()
         {
             Products = ProductService.GetProducts();
